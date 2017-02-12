@@ -1,13 +1,13 @@
-#Setting up a new module / functional area
+# Setting up a new module / functional area git repository
 
-##Module Names
+## Module Names
 
 |Abbreviation|Namespaces|Description|
 |------------|----------|-----------|
 |os|||
 |ops|||
 
-##Repository Setup
+## Repository Setup
 
 Please follow the general rule of having 1 repository per:
 - package
@@ -26,7 +26,7 @@ While working with a repository please **don't**:
 - mix packages with deployable apps/containers
 - mix things that have no dependencies on each other
 
-###Repository naming convention
+## Repository naming convention
 
 Please adhere to the following convention:
 
