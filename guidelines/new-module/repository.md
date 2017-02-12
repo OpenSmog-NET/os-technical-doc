@@ -6,6 +6,7 @@
 |------------|----------|-----------|
 |os||OpenSmog, device and acquisition APIs|
 |core||Frameworks, security|
+|ana||Analytics|
 |ops||DevOps, templates, automation|
 
 ## Repository Setup
@@ -29,9 +30,7 @@ While working with a repository please **don't**:
 
 ## Repository naming convention
 
-Please adhere to the following convention:
-
-```[module]-[submodule]-[app-type(s)]```
+Please adhere to the following convention: ```[module]-[submodule]-[app-type(s)]```
 
 Where:
 - ```[module]``` **(mandatory)** Is the abbreviated name of the module
