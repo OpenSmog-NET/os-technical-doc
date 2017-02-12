@@ -4,8 +4,9 @@
 
 |Abbreviation|Namespaces|Description|
 |------------|----------|-----------|
-|os|||
-|ops|||
+|os||OpenSmog, device and acquisition APIs|
+|core||Frameworks, security|
+|ops||DevOps, templates, automation|
 
 ## Repository Setup
 
@@ -36,13 +37,14 @@ Where:
 - ```[module]``` **(mandatory)** Is the abbreviated name of the module
 - ```[submodule]``` **(optional)** Used if there are multiple applications in the scope of a single module
 - ```[app-type]``` **(mandatory)** Used to indicate the type of an application:
+    - ```[module]-(...)-pkg```: Library Package (NuGet / NPM etc.)
     - ```[module]-(...)-web```: Public facing web-application 
-    - ```[module]-(...)-ext-api```: Public facing external API 
-    - ```[module]-(...)-int-api```: Internal API
+    - ```[module]-(...)-api```: Public facing external API 
+    - ```[module]-(...)-int-api```: Internal facing API
     - ```[module]-(...)-svc```: Long running service
     - ```[module]-(...)-job```: Short running (scheduled) task/job/serverless-function
 
 Use ```[module]-poc-[submodule]-[app-type]``` for proof-of-concept repositories that may eventually be renamed or deleted.
 
 **Always use kebab-case**
-Ex: ```os-ext-api```
+Ex: ```os-device-api```
