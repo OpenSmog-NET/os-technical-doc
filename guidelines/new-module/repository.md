@@ -4,9 +4,10 @@
 
 |Abbreviation|Namespaces|Description|
 |------------|----------|-----------|
-|os||OpenSmog, device and acquisition APIs|
-|core||Frameworks, security|
-|ops||DevOps, templates, automation|
+|os|OS.*|OpenSmog, device and acquisition APIs|
+|core|OS.Core.*|Frameworks, security|
+|svc|OS.*|Internal services|
+|ops|-|DevOps, templates, automation|
 
 ## Repository Setup
 
@@ -34,6 +35,7 @@ Please adhere to the following convention:
 ```[module]-[submodule]-[app-type(s)]```
 
 Where:
+
 - ```[module]``` **(mandatory)** Is the abbreviated name of the module
 - ```[submodule]``` **(optional)** Used if there are multiple applications in the scope of a single module
 - ```[app-type]``` **(mandatory)** Used to indicate the type of an application:
