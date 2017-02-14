@@ -9,6 +9,7 @@
 |svc|OS.*|Internal services|
 |ops|-|DevOps, templates, automation|
 
+
 ## Repository Setup
 
 Please follow the general rule of having 1 repository per:
@@ -30,9 +31,7 @@ While working with a repository please **don't**:
 
 ## Repository naming convention
 
-Please adhere to the following convention:
-
-```[module]-[submodule]-[app-type(s)]```
+Please adhere to the following convention: ```[module]-[submodule]-[app-type(s)]```
 
 Where:
 
